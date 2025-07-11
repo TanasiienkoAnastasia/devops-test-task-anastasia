@@ -10,3 +10,4 @@ Repository for TS Trainee DevOps test task.
 ./scripts/hello.sh
 # Test run
 # Test Run
+# Minor update for PR
