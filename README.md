@@ -6,3 +6,4 @@ Repository for TS Trainee DevOps test task.
 
 ```bash
 ./scripts/hello.sh
+# Test run
