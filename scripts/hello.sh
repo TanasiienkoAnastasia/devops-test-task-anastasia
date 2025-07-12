@@ -1,21 +1,17 @@
 #!/bin/bash
 
-# Функція друку привітання
 print_greeting() {
     echo "Hello from Bash!"
 }
 
-# Функція друку дати
 print_date() {
     date
 }
 
-# Функція підрахунку кількості файлів у output/
 count_files() {
     find output/ -maxdepth 1 -type f | wc -l
 }
 
-# Основний скрипт
 main() {
     greeting=$(print_greeting)
     datetime=$(print_date)
